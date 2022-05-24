@@ -1,0 +1,124 @@
+/* Universal Styles */
+body {
+    margin:auto;
+    font-size:25px;
+    background-color: tan;
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: solid 2px black;
+    background-color: rgb(105, 182, 212);
+    padding-top: 1rem;
+    margin:0;
+    text-align: right;
+  
+   
+}
+.navbar li{
+    display: inline-block; 
+    margin-right: 3rem;
+    text-decoration: underline;
+    color:rgb(12, 68, 73);  
+}
+.name h1 {
+    margin: 1rem;
+    color: rgb(12, 68, 73);
+    font-size: 3rem;
+}
+
+.titlecontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   background-image: url(https://images.unsplash.com/photo-1620245605605-8ab2cdd2ba91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2127);
+
+}
+/* body */
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.aboutcontainer {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem; 
+    background-color:rgb(12, 68, 73);
+    padding:2rem;
+    width: 90%;
+}
+.aboutus {
+    color: white;
+}
+.aboutus h2 {
+    text-decoration: underline;
+}
+
+/* pics */
+
+.picbox img {
+    height: 300px;
+    margin: 1rem;
+}
+
+/* quote */
+.quotes {
+    color:rgb(12, 68, 73);
+    margin: 1rem;   
+}
+.fans {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* media */
+@media only screen and (max-width: 700px) {
+  
+
+    .navbar li{
+        margin-right: 1rem;
+        font-size: 1rem;
+        }
+        .navbar {
+            text-align: center; 
+            margin: 0;
+        }
+        .aboutcontainer {
+            display: flex;
+            flex-wrap: wrap;
+           margin:0;
+        }
+        .picbox img {
+            height: 200px;
+            margin: 1rem;
+            padding: .25rem;
+        }  
+    .quotes {
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }    
+}
+    
